@@ -6,6 +6,8 @@
 
 *To do:*
 
-EVERYTHING
+Story with at least 2 prompts with choices
+
+JavaScript code for the story.
 
 [GitHub Pages](https://pages.github.com/)
