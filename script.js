@@ -15,7 +15,7 @@ function miniGame() {
         }
     }
     }
-}
+
 
     if(questionPrompt==2) {
         let question2 = prompt("Du befinner dig vid entredörren på vån 4.", "Vad är koden? Här får du ingen guidning");
@@ -32,5 +32,7 @@ function miniGame() {
             alert('Fel input, försök igen');
         }
     }
+}
+
 }
  
