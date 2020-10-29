@@ -44,6 +44,7 @@ function miniGame() {
         }
         if (question3=='höger') {
             alert('Snyggt jobbat! Du hittade rätt och kom i tid! En utmanande dag väntar...');
+            document.getElementById()
             // Lägg in getelementbytid här
         }
         if (question3 != 'vänster' && question3 != 'rakt' && question3 != 'höger') {
