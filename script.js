@@ -16,7 +16,6 @@ function miniGame() {
         }
     }
 }
-
     /** Fråga nr 2 */
     if(questionPrompt==2) {
         let question2 = prompt("Du befinner dig vid entredörren på vån 4.", "Vad är koden? Här får du ingen guidning!");
@@ -31,7 +30,6 @@ function miniGame() {
         }
     }
 }
-
     /** Fråga nr 3 */
     if(questionPrompt==3) {
         let question3 = prompt("Du har nu gått igenom dörren med kodlåset. Åt vilket håll vill du gå?", "vänster, rakt eller höger");
