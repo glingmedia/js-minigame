@@ -14,6 +14,8 @@ function miniGame() {
             alert(Wrong input);
         }
     }
+
+    let questionPrompt = 2;
 }
 
 console.log()
