@@ -18,12 +18,19 @@ function miniGame() {
 }
 
     if(questionPrompt==2) {
-        let question2 = prompt("Du befinner dig vid entredörren på vån 4.", "Vad är koden? Här får du ingen guidning")
+        let question2 = prompt("Du befinner dig vid entredörren på vån 4.", "Vad är koden? Här får du ingen guidning");
         if (question2 != null) {
-            if (question2=='1836') {
-                alert('Rätt kod!')
+            if (question2=='xxxx') {
+                alert('FEL KOD, har du inte lärt dig den än? Som straff hamnar du på entreplan igen');
+                questionPrompt = 1;
             }
+        if (question2=='1836') {
+            alert('Rätt kod')
+            questionPrompt = 3;
+        }
+        if (question2 != 'xxxx' && question2 != '1836') {
+            alert('Fel input, försök igen');
         }
     }
-
+}
  
