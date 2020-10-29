@@ -9,6 +9,7 @@ body {
 h1 {
     font-size: 3rem;
     color: rgb(200, 200, 200);
+    text-decoration: underline;
 }
 
 h2 {
@@ -17,7 +18,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: rgb(200, 200, 200);
     font-style: italic;
     margin-bottom: 3rem;
