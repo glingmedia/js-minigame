@@ -14,5 +14,5 @@ function miniGame() {
             alert('Wrong input');
         }
     }
-    console.log(miniGame);
+    }
 }
