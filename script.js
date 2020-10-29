@@ -16,3 +16,12 @@ function miniGame() {
     }
     }
 }
+
+    if(questionPrompt = 2) {
+        let question2 = prompt(Du befinner dig vid entredörren på vån 4. Vad är koden?)
+        if ()
+        
+        console.log()
+    }
+
+ 
