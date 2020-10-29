@@ -10,10 +10,10 @@ function miniGame() {
             alert(You go down the mountain);
             questionPrompt = 2;
         }
+        if (question1 != Jump && question1 != Go down) {
+            alert(Wrong input);
+        }
     }
-        
-    }
-
 }
 
 console.log()
