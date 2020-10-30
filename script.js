@@ -1,5 +1,5 @@
 function miniGame() {
-    
+
     /**
      *  Question 1
      * */
@@ -16,6 +16,7 @@ function miniGame() {
             }
             if (question1 != 'hissen' && question1 != 'trappan') {
             alert('Fel val. Välj hissen eller trappan');
+            miniGame()
             }
         }
     }
@@ -31,7 +32,8 @@ function miniGame() {
             questionPrompt = 3;
             }
             if (question2 != '1836') {
-            alert('Fel kod! Har du inte lärt dig den än? GAME OVER');
+            alert('Fel kod! Har du inte lärt dig den än? Som straff får du börja om!');
+            miniGame()
             }
         }
     }
