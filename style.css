@@ -7,21 +7,25 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     color: rgb(200, 200, 200);
     text-decoration: underline;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 h2 {
     font-size: 1.5rem;
+    margin: 0.5rem;
     color: rgb(200, 200, 200);
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: rgb(200, 200, 200);
     font-style: italic;
-    margin-bottom: 3rem;
+    margin: 0.5rem;
+    margin-bottom: 1.8rem;
 }
 
 button {
@@ -30,7 +34,7 @@ button {
 }
 
 #divbox {
-    margin-top: 3rem;
+    margin-top: 2rem;
     height: 20rem;
     width: 30rem;
     background: black;
